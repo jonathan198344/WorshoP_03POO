@@ -1,11 +1,9 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
         Console.Write("Ingrese el tamaño del rombo: ");
-        int n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine()!);
 
         int mitad = n / 2;
 
