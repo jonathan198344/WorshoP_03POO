@@ -5,13 +5,13 @@
         int m, n, p;
 
         Console.Write("Ingrese el valor de m: ");
-        m = int.Parse(Console.ReadLine());
+        m = int.Parse(Console.ReadLine()!);
 
         Console.Write("Ingrese el valor de n: ");
-        n = int.Parse(Console.ReadLine());
+        n = int.Parse(Console.ReadLine()!);
 
         Console.Write("Ingrese el valor de p: ");
-        p = int.Parse(Console.ReadLine());
+        p = int.Parse(Console.ReadLine()!);
 
         int[,] A = new int[m, n];
         int[,] B = new int[n, p];
